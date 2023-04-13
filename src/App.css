@@ -1,0 +1,32 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+thead{
+  background-color: #ccc;
+}
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #ccc;
+}
